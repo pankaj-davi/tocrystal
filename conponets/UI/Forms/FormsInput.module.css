@@ -1,0 +1,54 @@
+.form{  
+    display: flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content: center;
+    margin-top:2rem;
+}
+
+.control{
+    margin-bottom: 0.5rem;
+}
+
+.control label{
+    display: block;
+    margin-bottom:0.5rem;
+    font-size:1rem;
+}
+
+.control input{
+    width:250px;
+    outline: none;
+    padding:0.5rem;
+    border: 1px solid var(--primary-color);
+    background-color: rgb(255, 252, 252);
+}
+
+.control .errorBorder{
+    font-size:0.8rem;
+    color:rgb(233, 67, 67);
+}
+
+.invalid input{
+    border: 1px solid rgba(253, 96, 96, 0.5);
+}
+
+.control .errorBorder{
+    font-size:0.8rem;
+    color:solid rgba(253, 96, 96, 0.5)
+}
+
+.disableBtn{
+    background-color:  #87adb36c !important;
+    margin-top:1.5rem ;
+    
+}
+
+.disableBtn:hover{
+    background-color:  #87adb33a;
+    
+}
+
+.ableBtn{
+    margin-top:1.5rem;
+}

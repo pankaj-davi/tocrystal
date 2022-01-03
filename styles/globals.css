@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&family=Poppins:wght@100;200;300;400;500&family=Roboto:wght@100;300;400;500;700&family=Source+Sans+Pro:wght@200;300;400;600;700&display=swap');
+html,
+
+
+:root{
+  --primary-color: #87adb3;  
+  --font-family-sourece : 'Source Sans Pro', sans-serif;
+  --font-color-dark: #333333;
+  --font-color-fade :#6D6D6D;
+  --secondary-bg-card-color : #eeeeee;
+  --body-background-color : #f2f2f2;
+  --button-hover-bg-color :#E50914;
+  --body-bg-color:#f2f2f2;
+  --footer-bg-color:#b6b6b6;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    background-color:var(--body-bg-color);
+   
+}
+
+body::-webkit-scrollbar {
+  width: 10px;   
+}
+
+body::-webkit-scrollbar-track {
+  background: rgba(226, 223, 223, 0.123);    
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color:#87adb34f;    
+  border-radius: 20px;     
+
+}
+
+::-moz-selection {
+   background: var(--primary-color); 
+}
+::selection { 
+  background: var(--primary-color);
+  color:#FFF;
+  text-shadow: 5px 1px 2px #00000041;
+  
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+h1 ,
+h2 ,
+h3 , 
+h4,
+h5, 
+h6{
+  color:#333333;
+}
+
+
+.test{
+  color:red;
+}

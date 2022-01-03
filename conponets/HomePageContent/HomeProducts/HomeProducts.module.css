@@ -1,0 +1,28 @@
+.container {
+    max-width: 1550px;
+    /* margin:0 auto; */
+}
+
+.container .products{
+    margin-top:6rem;
+}
+
+.container .products:first-child{
+    margin-top:3rem;
+}
+
+.container .products h2{
+    color:var(--font-color-dark); 
+    font-family: var(--font-family-sourece);
+    font-size:2.2rem;
+    font-weight:400;
+    margin-bottom: 3rem;
+    margin-left: 2rem;
+}
+
+
+
+
+
+
+

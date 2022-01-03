@@ -1,0 +1,25 @@
+.button{
+    background-color: var(--primary-color);
+    outline: none;
+    padding: 1rem 5rem;
+    color: var(--body-background-color);
+    font-size: 15px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    position: relative;
+    transition: all 1s ease;
+}
+
+.cartIcon{
+    position: absolute;
+    top:25%;
+    left:20%;
+    font-size: 1.3rem;
+    color:var(--body-background-color);
+    
+}
+
+.button:hover {
+    background-color:var(--button-hover-bg-color);
+}
